@@ -32,11 +32,13 @@ public:
       cout<<"Do something in class ClxDerived! \n";
     };
     
+    
 };
 
 //int main(){
 //    ClxBase *pTest =new ClxDerived;
 //    pTest->doSomething();
+//    
 //    
 //    delete pTest;
 //    return 0;

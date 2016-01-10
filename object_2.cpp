@@ -47,10 +47,10 @@ using namespace std;
 //}
 //
 //void Pet::eat(){
-//    cout<< name<<"正在吃东西!\n";
+//    cout<< name<<" 动物正在吃东西!\n";
 //}
 //void Pet::sleep(){
-//    cout<<name<<"正在睡大觉!\n";
+//    cout<<name<<" 动物正在睡大觉!\n";
 //}
 //
 //Cat::Cat(string theName) : Pet(theName){
@@ -73,20 +73,30 @@ using namespace std;
 //void Dog::play(){
 //    cout<<name<<"正在接球\n";
 //}
-
+//
 //int main(){
-//    Dog dog("宝贝");
-//    dog.play();
+////    Dog dog("宝贝");
+////    dog.play();
+////    
+////    Cat cat("小萌猫");
+////    cat.climb();
+////    
+////    Pet *pet =&cat;
+////    pet->sleep();
 //    
-//    Cat cat("小萌猫");
-//    cat.climb();
+//    Dog *dog = new Dog("我的宝贝");
+//    dog->bark();
+//    dog->sleep();
+//    dog->play();
 //    
-//    Pet *pet =&cat;
-//    pet->sleep();
+//    cout<<"----------"<<endl;
+//    
+//    delete dog;
+//    dog=NULL;
 //    
 //    
 //    return 0;
 //}
-
-
-
+//
+//
+//

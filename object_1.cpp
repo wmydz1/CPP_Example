@@ -27,8 +27,13 @@ public:
     }
 };
 //int main(){
-//    fish fh;
-//    animal *pAn =&fh;
-//    pAn->breathe();
+////    fish fh;
+////    animal *pAn =&fh;
+////    pAn->breathe();
+//    
+//    fish *f =new fish();
+//    f->breathe();
+//    delete f;
+//    f=NULL;
 //    return 0;
 //}
