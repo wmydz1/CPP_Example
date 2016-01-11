@@ -10,21 +10,32 @@
 #include <stdio.h>
 #include <string>
 #include <iostream>
+
 using namespace std;
 
-void rs( const char *s )
+void Reverse(string &s)
 {
-    if ( *s )
+    static string copy_str = string(s.length(), '\0');
+    static int index;
+    
+    if (index == s.length())
     {
-        rs( s+1 );
-        printf("%c",*s );
+        s = string(copy_str);
+        return;
     }
+    
+    copy_str[index] = s[s.length()-index-1];
+    index++;
+    
+    Reverse(s);
 }
+
 //int main()
 //{
-//    const char *s="hello";
-//
-//    rs(s);
-//    printf("\n");
+//    string s = "abcdefg";
+//    Reverse(s);
+//    
+//    cout << s << endl;
+//    
 //    return 0;
 //}

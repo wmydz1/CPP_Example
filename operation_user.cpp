@@ -42,12 +42,12 @@ void Data::printInfo(){
 }
 
 
-int main(){
-    Data d1(100,200);
-    Data d2(300,400);
-    Data d3 ;
-    d3=d1+d2;
-    d3.printInfo();
-    
-    return 0;
-}
+//int main(){
+//    Data d1(100,200);
+//    Data d2(300,400);
+//    Data d3 ;
+//    d3=d1+d2;
+//    d3.printInfo();
+//    
+//    return 0;
+//}

@@ -6,13 +6,18 @@
 //  Copyright (c) 2016 Samchen. All rights reserved.
 //
 
-//#include <stdio.h>
-//#include <iostream>
-//using namespace std;
-//
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
 //struct Time
 //{
-//    int  year, month, day, hour, minute, second;
+//    int  year;
+//    int month ;
+//    int day;
+//    int hour;
+//    int minute;
+//   int second;
 //};
 //
 //int main(){
