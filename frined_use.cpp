@@ -62,14 +62,14 @@ void Others::kiss(Lovers *lover){
     cout<<name<<"亲一下"<<lover->name<<endl;
 }
 
-int main(){
-    Boyfriend boyfriend("A君");
-    Girlfriend girlfriend("B妞");
-    
-    Others others("路人甲");
-    
-    girlfriend.kiss(&boyfriend);
-    girlfriend.ask(&boyfriend, "去逛街");
-    cout<<"路人甲登场了"<<endl;
-    others.kiss(&girlfriend);
-}
+//int main(){
+//    Boyfriend boyfriend("A君");
+//    Girlfriend girlfriend("B妞");
+//    
+//    Others others("路人甲");
+//    
+//    girlfriend.kiss(&boyfriend);
+//    girlfriend.ask(&boyfriend, "去逛街");
+//    cout<<"路人甲登场了"<<endl;
+//    others.kiss(&girlfriend);
+//}
